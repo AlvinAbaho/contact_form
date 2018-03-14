@@ -23,10 +23,10 @@ def contact_us_view(request):
         if form.is_valid():
             print("good form")
 
-            mail_subject = 'Activate your Lead Shop account.'
+            mail_subject = 'MESSAGE FROM UMAAU WEBSITE'
             # current_site = get_current_site(request)
             # message = render_to_string('')
-            message = 'HELLO'
+            message = 'Heyyyy!!!!'
             # 'user': user,
             # 'domain': current_site.domain,
             # 'uid': urlsafe_base64_encode(force_bytes(user.pk)),
